@@ -1,3 +1,8 @@
+import { VscHome } from "react-icons/vsc";
+import { RiTimeLine } from "react-icons/ri";
+import { ImStatsDots } from "react-icons/im";
+
+
 
 export const Nav = () => {
     return (
@@ -7,11 +12,14 @@ export const Nav = () => {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a><span></span>home</a></li>
+                    <li><a><span><VscHome />
+                    </span>home</a></li>
                     <li>
-                        <a><span></span>time line</a>
+                        <a><span><RiTimeLine />
+                        </span>time line</a>
                     </li>
-                    <li><span></span><a>Stats</a></li>
+                    <li><a><span><ImStatsDots />
+                    </span>Stats</a></li>
                 </ul>
             </div>
         </div>
