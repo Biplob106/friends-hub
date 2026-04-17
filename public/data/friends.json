@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "name": "Rahim Khan",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600",
+    "email": "rahim.khan@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "University roommate. We used to play cricket every weekend.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 2,
+    "name": "Fatima Ahmed",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600",
+    "email": "fatima.ahmed@yahoo.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school", "best friend"],
+    "bio": "Childhood best friend. Always supports me emotionally.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Sohan Rahman",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600",
+    "email": "sohan.dev@outlook.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["work", "coding buddy"],
+    "bio": "Former colleague. We talk about tech and startups.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Nadia Islam",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600",
+    "email": "nadia.islam@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["family friend"],
+    "bio": "Family friend from childhood.",
+    "goal": 15,
+    "next_due_date": "2026-04-10"
+  }
+]
