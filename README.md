@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤝 FriendsHub
 
-## Getting Started
+**Nurture your network. Track your connections. Never lose touch.**
 
-First, run the development server:
+FriendsHub is a specialized Relationship Management (CRM) tool designed to help users maintain meaningful social connections. By tracking interaction frequency and visualizing social habits, FriendsHub ensures your most important relationships never go "overdue."
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project leverages a modern, scalable tech stack:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Frontend:** [Next.js 14](https://nextjs.org/) (App Router & Client Components)
+* **State Management:** React Context API (`TimelineContext`) for seamless data flow.
+* **Data Visualization:** [Recharts](https://recharts.org/) for interactive donut chart analytics.
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) for a mobile-first, responsive UI.
+* **Icons:** [React Icons](https://react-icons.github.io/react-icons/) for a polished look.
+* **Deployment:** Optimized for [Vercel](https://vercel.com/) with CI/CD integration.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📊 1. Interaction Analytics
+Gain insights into how you communicate. The "Friendship Analytics" dashboard uses custom-styled donut charts to break down your interactions by type (Call, Text, or Video), helping you see your communication patterns at a glance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔔 2. Proactive Status Tracking
+Each friend in your hub has a calculated "Status" based on your personal contact goals. The system automatically flags friends as **"Overdue"** if the days since your last contact exceed your defined goal, prompting you to reach out.
 
-## Deploy on Vercel
+### 📱 3. Responsive & Modern UI
+Built with a "KeenKeeper" aesthetic, the interface is fully responsive. From the data-rich tables to the custom branded footer and navigation, the app provides a premium experience on everything from smartphones to 4K monitors.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
