@@ -25,7 +25,7 @@ export default function TimelineItem({ entry }) {
 
     <div className="bg-white border rounded-xl px-5 py-4 flex items-center gap-4 hover:shadow-sm transition">
 
-      {/* Icon */}
+     
 
       <div className="text-xl">
 
@@ -33,7 +33,7 @@ export default function TimelineItem({ entry }) {
 
       </div>
 
-      {/* Text */}
+      
 
       <div>
 

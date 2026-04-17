@@ -22,15 +22,13 @@ export default function TimelinePage() {
 
     <div className="mt-10 max-w-3xl">
 
-      {/* Heading */}
-
       <h1 className="text-3xl font-bold mb-6">
 
         Timeline
 
       </h1>
 
-      {/* Filter Dropdown */}
+     
 
       <select
         className="border px-4 py-2 rounded-lg mb-6 text-sm"
@@ -58,7 +56,7 @@ export default function TimelinePage() {
 
       </select>
 
-      {/* Timeline List */}
+   
 
       <div className="space-y-4">
 

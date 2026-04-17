@@ -47,5 +47,53 @@
     "bio": "Family friend from childhood.",
     "goal": 15,
     "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 5,
+    "name": "Zayan Ahmed",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600",
+    "email": "zayan.dev@outlook.com",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": ["office", "tech"],
+    "bio": "Colleague from the development team. Great for brainstorming.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 6,
+    "name": "Safa Karim",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600",
+    "email": "safa.karim88@yahoo.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["university", "bestie"],
+    "bio": "University roommate. We usually catch up once a month.",
+    "goal": 30,
+    "next_due_date": "2026-04-02"
+  },
+  {
+    "id": 7,
+    "name": "Arif Rahman",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600",
+    "email": "arif.rahman.design@gmail.com",
+    "days_since_contact": 12,
+    "status": "active",
+    "tags": ["creative", "freelance"],
+    "bio": "A fellow designer I met at a networking event last year.",
+    "goal": 20,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 8,
+    "name": "Maliha Chowdhury",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600",
+    "email": "maliha.c@sohayika.com",
+    "days_since_contact": 8,
+    "status": "active",
+    "tags": ["childhood", "neighbor"],
+    "bio": "Childhood neighbor who moved away but stays in touch.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
   }
 ]

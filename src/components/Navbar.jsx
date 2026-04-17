@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ImStatsDots, } from "react-icons/im";
+import { RiHome2Line } from "react-icons/ri";
+import { RiTimeLine } from "react-icons/ri";
 
-import {
-  FaHome,
-  FaClock,
-  FaChartPie
-} from "react-icons/fa";
+
 
 import { HiMenu, HiX } from "react-icons/hi";
 import { useState } from "react";
@@ -28,34 +27,36 @@ const Navbar = () => {
 
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
 
-        {/* Logo */}
+       
 
         <Link href="/" className="text-2xl font-bold text-indigo-600">
           KeenKeeper
         </Link>
 
-        {/* Desktop */}
+       
 
         <div className="hidden md:flex gap-4">
 
           <Link href="/" className={linkClass("/")}>
-            <FaHome />
+           <RiHome2Line />
+
             Home
           </Link>
 
           <Link href="/timeline" className={linkClass("/timeline")}>
-            <FaClock />
+            <RiTimeLine />
+
             Timeline
           </Link>
 
           <Link href="/stats" className={linkClass("/stats")}>
-            <FaChartPie />
+            <ImStatsDots />
             Stats
           </Link>
 
         </div>
 
-        {/* Mobile Button */}
+        
 
         <button
           className="md:hidden text-2xl"
@@ -68,7 +69,7 @@ const Navbar = () => {
 
       </div>
 
-      {/* Mobile Menu */}
+      
 
       {open && (
 

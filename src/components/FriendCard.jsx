@@ -19,7 +19,7 @@ export default function FriendCard({ friend }) {
 
       <div className="bg-white rounded-2xl border border-gray-100 p-6 text-center hover:shadow-lg transition duration-300">
 
-        {/* Profile Image */}
+     
 
         <img
           src={friend.picture}
@@ -27,19 +27,19 @@ export default function FriendCard({ friend }) {
           className="w-20 h-20 rounded-full mx-auto object-cover"
         />
 
-        {/* Name */}
+      
 
         <h3 className="font-semibold text-lg mt-3 text-gray-900">
           {friend.name}
         </h3>
 
-        {/* Age */}
+       
 
         <p className="text-sm text-gray-500">
           {friend.age} age
         </p>
 
-        {/* Tags */}
+      
 
         <div className="flex justify-center flex-wrap gap-2 mt-2">
 
@@ -56,7 +56,7 @@ export default function FriendCard({ friend }) {
 
         </div>
 
-        {/* Status */}
+      
 
         <div className="mt-3">
 
