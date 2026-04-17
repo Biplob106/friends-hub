@@ -1,29 +1,38 @@
-// app/layout.js
 import "./globals.css";
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { TimelineProvider } from "@/context/TimelineContext";
 
 export const metadata = {
-  title: "KinKeeper",
-  description: "Keep your important relationships alive",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  title: "KeenKeeper"
 };
 
 export default function RootLayout({ children }) {
+
   return (
-    <html lang="en" className="h-full antialiased">
-      <body 
-        className="min-h-full flex flex-col bg-gray-50"
-        suppressHydrationWarning={true}
-      >
-        <Nav />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
+
+    <html lang="en">
+
+      <body>
+
+        <TimelineProvider>
+
+          <Navbar />
+
+          <main className="max-w-7xl mx-auto px-4 min-h-screen">
+
+            {children}
+
+          </main>
+
+          <Footer />
+
+        </TimelineProvider>
+
       </body>
+
     </html>
+
   );
 }
