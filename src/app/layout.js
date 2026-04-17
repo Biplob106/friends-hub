@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { TimelineProvider } from "@/context/TimelineContext";
-import { Toaster } from "react-hot-toast";
+import ToasterProvider from "@/components/ToasterProvider";
 
 export const metadata = {
   title: "KeenKeeper"
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
 
           <Footer />
 
-          <Toaster position="top-right" />
+          <ToasterProvider />
 
         </TimelineProvider>
 
